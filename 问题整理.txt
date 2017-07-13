@@ -1,0 +1,48 @@
+
+-Q:
+android.os.FileUriExposedException: file:///storage/emulated/0/thy/versionupdate/com.ymdq.thy.apk exposed 
+-A:
+Android N7.0不允许直接操作
+方法一： 将targetSdkVersion修改为 <23
+方法二：http://blog.csdn.net/yy1300326388/article/details/52787853  未测试
+
+
+-Q：
+java.lang.IndexOutOfBoundsException: Inconsistency detected. Invalid item position 6(offset:6).state:11
+-A：
+使用 RecyclerView 加SwipeRefreshLayout下拉刷新的时候，如果绑定的 List 对象在更新数据之前进行了 clear，而这时用户紧接着迅速上滑 RecyclerView，就会造成崩溃，而且异常不会报到我们的代码上，属于RecyclerView内部错误。具体操作就是先下拉再快速上拉。
+/**重写LinearLayoutManager 
+ * 去除动画防止，防止出现recyclerView的bug
+ */
+public class MyLinearLayoutManager extends LinearLayoutManager {
+    public MyLinearLayoutManager(Context context) {
+        super(context);
+    }
+    @Override
+    public boolean supportsPredictiveItemAnimations() {
+        return false;
+    }
+    public void onLayoutChildren(RecyclerView.Recycler recycler, RecyclerView.State state) {
+        try {
+            super.onLayoutChildren(recycler, state);
+        } catch (IndexOutOfBoundsException e) {
+            e.printStackTrace();
+
+        }
+    }
+    @Override
+    public int scrollVerticallyBy(int dy, RecyclerView.Recycler recycler, RecyclerView.State state) {
+        try {
+            return super.scrollVerticallyBy(dy, recycler, state);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return 0;
+    }
+}
+
+/**
+ * 引用此LinearLayoutManager 
+ */
+MyLinearLayoutManager myLinearLayoutManager = new MyLinearLayoutManager (mContext);
+recyclerView.setLayoutManager(myLinearLayoutManager );
