@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set>
+    <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="1000"
+        android:interpolator="@android:anim/bounce_interpolator"
+        android:propertyName="pathData"
+        android:valueFrom="M 20,20 L 50,20,80,20"
+        android:valueTo="M 20,20, L 50,50,80,20"
+        android:valueType="pathType">
+    </objectAnimator>
+    <!-- propertyName指定控制哪一中属性,如果是pathData则需要加android:valueType="pathType"-->
+</set>

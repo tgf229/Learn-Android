@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tgf.scrollview.viewdraghelper.VDHDemo xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@android:color/darker_gray"
+        android:text="自由拖拽1"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <Button
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="松手返回原位2"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+</com.tgf.scrollview.viewdraghelper.VDHDemo>

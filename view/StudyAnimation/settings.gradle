@@ -1,0 +1,1 @@
+include ':app', ':viewanimation', ':objectanimation', ':layoutanimation', ':svg', ':example', ':activityanim'

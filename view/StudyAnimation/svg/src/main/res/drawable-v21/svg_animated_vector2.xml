@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/svg_vector2">
+    <target
+        android:animation="@animator/svg_objectanimator2"
+        android:name="search"></target>
+</animated-vector>

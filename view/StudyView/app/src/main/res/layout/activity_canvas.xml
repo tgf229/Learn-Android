@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tgf.studyview.view.canvas.CanvasActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.tgf.studyview.view.canvas.TranslateView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@android:color/holo_green_light" />
+
+            <com.tgf.studyview.view.canvas.ScaleView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@android:color/darker_gray" />
+
+            <com.tgf.studyview.view.canvas.RotateView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@android:color/holo_green_light" />
+
+            <com.tgf.studyview.view.canvas.SkewView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@android:color/darker_gray"/>
+            
+            <com.tgf.studyview.view.canvas.LayerView
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

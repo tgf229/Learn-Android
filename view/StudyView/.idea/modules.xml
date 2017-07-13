@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/StudyView.iml" filepath="$PROJECT_DIR$/StudyView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/colormatrix/colormatrix.iml" filepath="$PROJECT_DIR$/colormatrix/colormatrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/matrix/matrix.iml" filepath="$PROJECT_DIR$/matrix/matrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paint/paint.iml" filepath="$PROJECT_DIR$/paint/paint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/path/path.iml" filepath="$PROJECT_DIR$/path/path.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qyz/qyz.iml" filepath="$PROJECT_DIR$/qyz/qyz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scrollview/scrollview.iml" filepath="$PROJECT_DIR$/scrollview/scrollview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/surfaceview/surfaceview.iml" filepath="$PROJECT_DIR$/surfaceview/surfaceview.iml" />
+    </modules>
+  </component>
+</project>

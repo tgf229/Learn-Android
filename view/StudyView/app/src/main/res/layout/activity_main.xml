@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tgf.studyview.MainActivity">
+
+    <com.tgf.studyview.view.TitleView
+        xmlns:title="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/title_view"
+        title:title="涂高峰"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <com.tgf.studyview.view.CounterView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
+    
+    <com.tgf.studyview.view.pie.PieView
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:background="@android:color/darker_gray"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Canvas画布操作"
+            />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="drawPicture()"
+            />
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="drawBitmap()"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/demo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="左滑删除demo"/>
+</LinearLayout>
