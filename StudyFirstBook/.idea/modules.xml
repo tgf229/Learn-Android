@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/StudyFirstBook.iml" filepath="$PROJECT_DIR$/StudyFirstBook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studyactivity/studyactivity.iml" filepath="$PROJECT_DIR$/studyactivity/studyactivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studybroadcastreceiver/studybroadcastreceiver.iml" filepath="$PROJECT_DIR$/studybroadcastreceiver/studybroadcastreceiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studyfragment/studyfragment.iml" filepath="$PROJECT_DIR$/studyfragment/studyfragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studymaterial/studymaterial.iml" filepath="$PROJECT_DIR$/studymaterial/studymaterial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studymedia/studymedia.iml" filepath="$PROJECT_DIR$/studymedia/studymedia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studynet/studynet.iml" filepath="$PROJECT_DIR$/studynet/studynet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studyprovider/studyprovider.iml" filepath="$PROJECT_DIR$/studyprovider/studyprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studysave/studysave.iml" filepath="$PROJECT_DIR$/studysave/studysave.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studyservice/studyservice.iml" filepath="$PROJECT_DIR$/studyservice/studyservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studyui/studyui.iml" filepath="$PROJECT_DIR$/studyui/studyui.iml" />
+    </modules>
+  </component>
+</project>

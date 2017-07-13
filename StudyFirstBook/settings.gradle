@@ -1,0 +1,1 @@
+include ':app', ':studyactivity', ':studyui', ':studyfragment', ':studybroadcastreceiver', ':studysave', ':studyprovider', ':studymedia', ':studynet', ':studyservice', ':studymaterial'
